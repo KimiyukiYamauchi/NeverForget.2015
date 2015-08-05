@@ -19,8 +19,7 @@ public class MemorialFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //ViewGroup root = (ViewGroup)inflater.inflate(R.layout.fragment_memorial,null);
-        ViewGroup root = (ViewGroup)getActivity().getLayoutInflater().inflate(R.layout.fragment_memorial,null);
+        ViewGroup root = (ViewGroup)inflater.inflate(R.layout.fragment_memorial,null);
         return  root;
     }
     @Override

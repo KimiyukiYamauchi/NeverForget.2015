@@ -17,8 +17,7 @@ public class PropertyFragment extends Fragment {
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //ViewGroup root = (ViewGroup)inflater.inflate(R.layout.fragment_property,null);
-        ViewGroup root = (ViewGroup)getActivity().getLayoutInflater().inflate(R.layout.fragment_property,null);
+        ViewGroup root = (ViewGroup)inflater.inflate(R.layout.fragment_property,null);
         return  root;
     }
 

@@ -1,11 +1,9 @@
 package com.example.yamauchi.neverforgetyo;
 
 
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.widget.DrawerLayout;
 

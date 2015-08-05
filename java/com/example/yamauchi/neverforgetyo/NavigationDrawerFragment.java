@@ -1,6 +1,5 @@
 package com.example.yamauchi.neverforgetyo;
 
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -250,7 +249,7 @@ public class NavigationDrawerFragment extends Fragment {
     private void showGlobalContextActionBar() {
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayShowTitleEnabled(true);
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
+        //actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setTitle(R.string.app_name);
     }
 
